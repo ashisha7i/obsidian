@@ -1,6 +1,5 @@
 ---
 tags:
-  - RTC20
   - APPCFG
   - RTC-1466
 ---
