@@ -18,6 +18,13 @@
 	- https://mgmdigitalventures.atlassian.net/wiki/spaces/PER/pages/2346451368/DREN+Solution+Architecture#Deposit-Receipt
 
 
+##### Open Questions <font color="red">⁉️</font>
+
+- [ ] Resort ID is not the same as `Property ID`
+	- currently used to fetch details like phone number etc
+- [ ] Room Number is missing in the `body` (JSON string being passed to RTC)
+- [ ] Date format in payloads is `"departure_date": "12/10/2023 0:00"`  and we are using `"departure_date": "2023-09-16T19:46:14.00Z"` (as everywhere else)
 ----
+
 **Links**
 - [[DREN]]
